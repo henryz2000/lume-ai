@@ -2,11 +2,16 @@
 
 import DataReviewTable from "../components/DataReviewTable";
 
-
 export default function Home() {
   return (
-    <div>
-      <DataReviewTable />
-    </div>
+    <>
+      <script
+        type="module"
+        src="node_modules/@material-tailwind/html@latest/scripts/tooltip.js"
+      ></script>
+      <div>
+        <DataReviewTable />
+      </div>
+    </>
   );
 }

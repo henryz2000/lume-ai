@@ -1,0 +1,9 @@
+.criticalError {
+  color: red;
+  margin-left: 5%;
+}
+
+.warningError {
+  color: #ffc107;
+  margin-left: 5%;
+}
